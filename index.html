@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php</title>
+    <style>
+        body{
+            background-color: #212121;
+        }
+        .addfile{
+            display: block;
+            position: absolute;
+            width: 250px;
+            height: 150px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>h1</h1>
+    <p1>p1</p1><br>
+    <a href="index.php">download php</a><br>
+    <a href="index.txt">download txt</a><br>
+
+    <form method="post" enctype="multipart/form-data">
+        <input class="addfile" type="file" name="file" accept=".jpg, .jpeg, .png"/>
+    </form>
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="submit" value="Download file!"/>
+    </form>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Загрузка файла</title>
+  <style>
+    body{
+        background-color: #212121;
+    }
+</style>
+ </head>
+ <body>
+  <form enctype="multipart/form-data" method="post">
+   <p>Загрузите ваши фотографии на сервер</p>
+   <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+   <input type="submit" value="Отправить"></p>
+  </form>
+  
+ </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+        <title>Загрузка файлов при помощи Drag & Drop API.</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <style>
+            body{
+                background-color: #212121;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Создаем поле в которое мы будим переносить наши файлы -->
+		<div id="dropbox">
+        	<!-- Напишем пояснительную записку в которой укажем что файлы необходимо кидать именно сюда -->
+			<span class="message">Перенесите сюда изображения для загрузки</span>
+		</div>
+
+
+
+
+        
+        <!-- Подключаем библиотеку jQuery -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<!-- Подключаем плагин FileDrop -->
+		<script src="js/jquery.filedrop.js"></script>
+		<!-- Так же подключим еще один js скриптик которые напишем далее -->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
+
+
